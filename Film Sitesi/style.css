@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    width: 1200px;
+    height: 100px;
+}
+
+.container{
+    background: rgb(139, 139, 122);
+}
+
+.menu .logo{
+    float: left;
+    display: inline-block;
+    font-size: 36px;
+}
+
+.menu .logo img{
+    width: 90px;
+    height: 90px;
+    margin-left: 50px;
+    margin-top: 8px;
+}
+
+/* Navbar */
+
+.navbar{
+    width: 90px;
+    height: 100vh;
+    margin-right: -60px;
+    background: gray;
+    float: right;
+}
+
+.navbar ul{
+    list-style: none;
+    text-align: center;
+}
+
+.navbar ul li{
+    transform: rotate(90deg);
+    padding-left: 50px;
+    margin-top: 70px;
+}
+
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.navbar ul li a:hover{
+    background: rgb(139, 139, 122);
+    border: 2px solid #000;
+    border-left: none;
+    border-right: none;
+}
+
+/* İçerik Kısmı */
+
+.icerik-sol{
+    width: 60%;
+    height: auto;
+}
+
+.icerik-sol h1{
+    padding-top: 18%;
+    padding-left: 45px;
+    font-size: 27px;
+    letter-spacing: 2px;
+    font-family: 'Poppins';
+}
+
+.icerik-sol h2{
+    padding-top: 25px;
+    padding-left: 45px;
+    font-size: 27px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.icerik-sol p{
+    padding-top: 30px;
+    padding-left: 55px;
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+
+.icerik-sol .kayit{
+    width: 20%;
+    height: 55px;
+    margin-top: 35px;
+    margin-left: 50%;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+    background-color: rgb(205, 102, 0);
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.icerik-sol .kayit:hover{
+    background: rgb(255, 69, 0);
+    border: 2px solid black;
+    border-left: none;
+    border-right: none;
+}
+
+.icerik-sag{
+    width: 600px;
+    height: auto;
+}
+
+.icerik-sag img{
+    width: 95%;
+    height: 100%;
+    margin-left: 99%;
+    margin-top: -100%;
+    border-radius: 50px;
+}
+
+/* İletişim Kısmı */
+
+.iletisim{
+    width: 1230px;
+    height: 180px;
+    background: rgb(139, 139, 122);
+    padding-left: 25px;
+}
+
+.iletisim h2{
+    text-transform: uppercase;
+    width: 500px;
+    font-family: sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 45px;
+    margin-left: 300px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.iletisim .name{
+    float: left;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    justify-content: space-between;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.iletisim .mail{
+    float: left;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    justify-content: space-between;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.iletisim .mesaj{
+    float: left;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    justify-content: space-between;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.iletisim .aname{
+    float: left;
+    height: 25px;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.iletisim .email{
+    float: left;
+    height: 25px;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.iletisim .mesajtext{
+    float: left;
+    height: 70px;
+    margin-top: -25px;
+    margin-right: 5px;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+
+.iletisim .send{
+    background: rgb(205, 102, 0);
+    width: 9%;
+    height: 55px;
+    margin-top: -15px;
+    border: none;
+    border-radius: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.iletisim .send:hover{
+    background: rgb(255, 69, 0);
+    border: 2px solid black;
+    border-left: none;
+    border-right: none;
+}
+
+

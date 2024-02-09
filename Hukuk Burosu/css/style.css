@@ -1,0 +1,390 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+::-webkit-scrollbar{
+    width: 5px;
+    height: 12px;
+}
+
+::-webkit-scrollbar-track{
+    background-color: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #888;
+    border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background: #555;
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    width: 600;
+    height: auto;
+}
+
+.navbar{
+    width: 100%;
+    height: 80px;
+    background: #484848;
+}
+
+.logo img{
+    float: left;
+    width: 90px;
+    height: 70px;
+    margin-left: 40px;
+    cursor: pointer;
+}
+
+.menu-list{
+   text-align: left;
+   justify-content: center;
+   flex-grow: 1;
+}
+.menu-list ul{
+    display: inline-flex;
+    list-style: none;
+    margin-left:  auto;
+    margin-top: 25px;
+    
+}
+
+.menu-list ul li{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.menu-list ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 3px;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    float: right;
+    margin-right: 390px;
+    margin-top: -35px;
+}
+
+.search-input{
+    width: 150px;
+    height: 30px;
+    padding-left: 15px;
+    font-weight: 200;
+    font-family: 'Lato', sans-serif;
+    border-radius: 10px;
+    color: #fff;
+    background: transparent;
+    border: none;
+}
+
+.search-button{
+    background-color: #2980b9;
+    width: 35px;
+    height: 35px;
+    margin-right: -200px;
+    border: none;
+    border-radius: 5px;
+}
+
+.search-button i{
+    color: wheat;
+    margin-left: 2px;
+    margin-bottom: 2px;
+    cursor: pointer;
+}
+
+.social-ico{
+    height: 15px;
+    float: right;
+    margin-right: 40px;
+    margin-top: -40px;
+}
+
+/* .social-ico a i{
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px;
+    font-size: 29px;
+    border: 1px solid black;
+    color: wheat;
+} */
+
+.facebook{
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px;
+    font-size: 29px;
+    border-radius: 50%;
+    color: wheat;
+}
+
+.facebook:hover{
+    background: #3b5998;
+}
+
+.instagram{
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px;
+    font-size: 29px;
+    border-radius: 50%;
+    color: wheat;
+}
+
+.instagram:hover{
+    background: linear-gradient(45deg, #515BD4, #8134AF);
+}
+
+.twitter{
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px;
+    font-size: 29px;
+    border-radius: 50%;
+    color: wheat;
+}
+
+.twitter:hover{
+    background: #00aced;
+    transition: 0.5 ease-in-out;
+}
+
+.linkedin{
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px;
+    font-size: 29px;
+    border-radius: 50%;
+    color: wheat;
+}
+
+.linkedin:hover{
+    background: #007bb5;
+}
+
+.whatsapp{
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px;
+    font-size: 29px;
+    border-radius: 50%;
+    color: wheat;
+}
+
+.whatsapp:hover{
+    background: green;
+}
+
+
+/* İçerik Kısmı Css Kodları */
+
+.icerikler{
+    width: 100%;
+    height: 500px;
+}
+
+/* Slider Css Start */
+
+.slider-container{
+    margin-top: 5px;
+    width: 90%;
+    height: 100%;
+    object-fit: fill;
+    margin-left: 60px;
+    overflow: hidden;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.slider{
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide{
+    min-width: 100%;
+    box-sizing: border-box;
+}
+
+.slide img{
+    width: 100%;
+    height: 70%;
+    object-fit: fill;
+    border-radius: 10px;
+}
+
+.prev, .next{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    color: #ddd;
+    background: #007bb5;
+    border: none;
+    border-radius: 50%;
+    outline: none;
+    padding: 10px;
+}
+
+.prev:hover{
+    background: #8134AF;
+}
+
+.next:hover{
+    background: #8134AF;
+}
+
+.prev{
+    left: 10px;
+}
+
+.next{
+    right: 10px;
+}
+/* Slider Css End */
+/* Hakkında Kısımı Css */
+
+.hakkinda{
+    margin-top: 16px;
+    width: 90%;
+    height: 50%;
+    background: #484848;
+    border-radius: 15px;
+    margin-left: 60px;
+}
+
+.hakkinda h1{
+    font-size: 60px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    margin-left: 400px;
+    font-family: 'Lato', sans-serif;
+}
+
+.hakkinda h2{
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    margin-left: 50px;
+    margin-bottom: 35px;
+}
+
+
+
+.hakkinda button{
+    width: 150px;
+    height: 50px;
+    margin-left: 500px;
+    margin-top: 50px;
+    background:#00aced;
+    border-radius: 20px;
+    color: #ddd;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    border: none;
+}
+
+.hakkinda button:hover{
+    background: #8134AF;
+    transition: 0.5 ease-out;
+}
+
+.hakkinda img{
+    float: right;
+    width: 500px;
+    height: 300px;
+    margin-right: 10px;
+    margin-top: -200px;
+
+
+}
+
+.hakkinda .p1{
+    font-size: 16px;
+    margin-left: 10px;
+    font-family: 'Lato', sans-serif;
+}
+
+.hakkinda .p2{
+    margin-top: 15px;
+    font-size: 16px;
+    margin-left: 10px;
+    font-family: 'Lato', sans-serif;
+}
+
+.hakkinda .p3{
+    margin-top: 15px;
+    margin-left: 10px;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+}
+
+/* hakkında end */
+/* Ekibimiz Css Start */
+.ekibimiz{
+    float: left;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin-left: 100px;
+    margin-top: 30px;
+    background: #333;
+    padding-left: 60px;
+    padding-right: 70px;
+}
+
+
+.uyeler{
+    background: #fff;
+    border: 1px solid #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 15px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.uyeler img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.uyeler h3{
+    margin: 15px 0;
+    font-size: 20px;
+    color: #333;
+}
+
+.uyeler p{
+    color: #777;
+    font-size: 16px;
+}
+
+.uyeler:hover{
+    transform: scale(1.05);
+}
+
+/* Ekibimiz Css End */
+
+
+
+

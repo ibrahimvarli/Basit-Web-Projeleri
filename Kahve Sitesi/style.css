@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    width: 1200px;
+    height: 100px;
+}
+
+.container{
+    background-color: white;
+}
+
+.menu .logo{
+    float: left;
+    display: inline-block;
+    font-size: 36px;
+}
+
+.logo img{
+    width: 90px;
+    height: 90px;
+    margin-left: 50px;
+    margin-top: 8px;
+}
+
+.navbar{
+    width: 90px;
+    height: 100vh;
+    margin-right: -60px;
+    background: rgb(218, 165, 32);
+    float: right;
+}
+
+.navbar ul{
+    list-style: none;
+    text-align: center;
+    display: flexbox;
+
+}
+
+.navbar ul li{
+    transform: rotate(90deg);
+    padding-left: 50px;
+    margin-top: 50px;
+    margin: 45px, 25px;
+}
+
+.navbar ul li a{
+    color: white;
+    list-style-type: none;
+    font-size: 20px;
+    justify-content: space-between;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 2px;
+
+}
+
+.navbar ul li a:hover{
+    background-color: goldenrod;
+    font-size: 25px;
+    border: 2px solid rgba(28, 28, 28, 0.6);
+    border-radius: 5px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+/* İÇERİK SOL KISIM BAŞLANGIÇ */
+.icerik-sol{
+    width: 60%;
+    height: auto;
+    
+}
+
+.icerik-sol h1{
+    padding-top: 18%;
+    padding-left: 25px;
+    font-size: 45px;
+    letter-spacing: 3px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.icerik-sol h2{
+    padding-top: 25px;
+    padding-left: 45px;
+    font-size: 27px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.icerik-sol h2 span{
+    color: #d2691e;
+}
+
+.icerik-sol p{
+    padding-top: 30px;
+    padding-left: 55px;
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+
+.icerik-sol .video{
+    width: 25%;
+    height: 55px;
+    margin-top: 35px;
+    margin-left: 50%;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: #cd661d;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.icerik-sol .video:hover{
+    background: transparent;
+    background-color: rgb(218, 165, 32, 0.6);
+    border: 3px solid #cd661d;
+}
+
+.icerik-sag{
+    width: 600px;
+    height: auto;
+}
+
+.icerik-sag img{
+    width: 95%;
+    height: 100%;
+    margin-left: 99%;
+    margin-top: -100%;
+    border-radius: 50%;
+}
+
+
+/* Sipariş Ver Formu */
+
+.siparis-ver{
+    width: 1230px;
+    height: 173px;
+    background: #cd661d;
+    padding-left: 25px;
+}
+
+.siparis-ver h2{
+    text-transform: uppercase;
+    width: 500px;
+    font-family: sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 45px;
+    margin-left: 300px;
+    font-weight: bold;
+    margin-bottom: 16px;
+    margin-top: 10px;
+}
+
+.siparis-ver .i{
+    float: left;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    justify-content: space-between;
+    margin-right: 5px;
+    margin-left: 80px;
+    border: 2px solid rgba(28, 28, 28, 0.6);
+}
+
+.siparis-ver .u{
+    float: left;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    justify-content: space-between;
+    margin-top: -15px;
+    margin-left: 15px;
+    margin-right: 5px;
+    border: 2px solid rgba(28, 28, 28, 0.6);
+}
+
+.siparis-ver input{
+    float: left;
+    height: 25px;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    background: rgb(231, 231, 231);
+}
+
+.siparis-ver select{
+    float: left;
+    height: 25px;
+    margin-top: -14px;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    background: rgb(231, 231, 231);
+    cursor: pointer;;
+}
+
+.siparis-ver .sp-btn{
+    float: left;
+    width: 120px;
+    height: 45px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Poppins';
+    margin-left: 650px;
+    margin-top: -45px;
+    background: goldenrod;
+    border: none;
+    cursor: pointer;
+}
+
+.siparis-ver .sp-btn:hover{
+    background: rgba(218, 165, 32, 0.9);
+}
